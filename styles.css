@@ -1,5 +1,5 @@
 body{
-    margin:0px
+    margin:0px;
 }
 nav {
     display:flex;
@@ -19,7 +19,8 @@ nav > a {
 }
 
 nav > a:hover {
-    border-bottom:5px solid white
+    color:rgb(175, 0, 255);
+    border-bottom:5px solid rgb(175, 0, 255)
 }
 
 footer{
