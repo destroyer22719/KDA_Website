@@ -3,19 +3,23 @@ body{
 }
 nav {
     display:flex;
-    height:60px;
+    height:120px;
     width: 100%;
+    flex-direction: row-reverse;
+    background-color: rgb(30, 30, 30);
+
 }
 nav > a {
-    flex-grow: 1;
-    padding:10px;
-    background:rgb(30, 30, 30);
-
-    line-height: 45px;
+    padding:40px;
+    line-height: 75px;
     font-size: 20px;
     text-decoration:none;
     color:white;
     text-align: center;
+}
+nav > img {
+    
+    margin-right:auto;
 }
 
 nav > a:hover {
@@ -47,11 +51,14 @@ footer > ul > li{
     padding:10px;
     margin-bottom: 0px;
     color:whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
 }
 .caption{
     margin-top: 2px;
     color:whitesmoke;
     border-left: 10px solid  rgb(100, 100, 255);
     background-color: rgb(150, 150, 255);
-    text-align: center;
+    padding: 10px;
 }
