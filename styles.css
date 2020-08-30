@@ -28,6 +28,9 @@ nav > a:hover {
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     display: flex;
     background:rgb(30, 30, 30)
 }
