@@ -22,3 +22,20 @@ nav > a:hover {
     border-bottom:5px solid white
 }
 
+footer{
+    display: flex;
+    background:rgb(30, 30, 30)
+}
+footer > *{
+    flex-grow: 1;
+    margin:10px;
+    color:white;
+    text-decoration: none;
+}
+footer > ul > li> a{
+    text-align: center;
+    color:white;
+}
+footer > ul > li{
+    margin-top: 10px;
+}
