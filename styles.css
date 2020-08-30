@@ -40,3 +40,18 @@ footer > ul > li> a{
 footer > ul > li{
     margin-top: 10px;
 }
+
+.title{
+    border-left: 10px solid  rgb(175, 0, 255);
+    background-color: rgb(255, 150, 255);
+    padding:10px;
+    margin-bottom: 0px;
+    color:whitesmoke;
+}
+.caption{
+    margin-top: 2px;
+    color:whitesmoke;
+    border-left: 10px solid  rgb(100, 100, 255);
+    background-color: rgb(150, 150, 255);
+    text-align: center;
+}
